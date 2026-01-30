@@ -4,92 +4,55 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f9fbf6;
+  font-family: system-ui, sans-serif;
+  background: #f4f6f8;
   color: #111;
 }
 
 .container {
   max-width: 900px;
   margin: auto;
-  padding: 40px 24px;
+  padding: 60px 20px;
 }
 
-/* ABOUT */
-.about h2 {
-  margin-bottom: 24px;
+/* INTRO */
+.intro {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-.about-content {
-  display: flex;
-  gap: 32px;
-  align-items: center;
+.intro h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
 }
 
-.image-box {
-  background: linear-gradient(135deg, #d9f7b4, #e9ffd8);
-  padding: 16px;
-  border-radius: 12px;
+.intro span {
+  color: #2563eb;
 }
 
-.image-box img {
-  display: block;
-  width: 220px;
-  border-radius: 8px;
-}
-
-.text-box h3 {
-  margin-top: 0;
-}
-
-.text-box p {
-  max-width: 360px;
-  line-height: 1.5;
-}
-
-/* INTERESTS */
-.interests {
-  margin-top: 64px;
-}
-
-.desc {
+.intro p {
+  font-size: 18px;
   max-width: 600px;
-  margin-bottom: 24px;
+  margin: auto;
+  line-height: 1.6;
 }
 
-.cards {
-  display: flex;
-  gap: 24px;
+/* GALLERY */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
 }
 
-.card {
-  width: 120px;
-  height: 120px;
-  border-radius: 12px;
+.gallery img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
 }
 
-.card.pink {
-  background: linear-gradient(135deg, #ffb7c5, #ffe1e8);
+.gallery img:hover {
+  transform: scale(1.03);
 }
-
-.card.purple {
-  background: linear-gradient(135deg, #c8c6ff, #e6e5ff);
-}
-
-.card.green {
-  background: linear-gradient(135deg, #d6f5d6, #f0fff0);
-}
-
-/* FOOTER */
-.footer {
-  margin-top: 80px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 14px;
-  color: #555;
-}
-
-.years {
-  text-align: right;
-}
-
