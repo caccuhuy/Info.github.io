@@ -56,3 +56,11 @@ body {
 .gallery img:hover {
   transform: scale(1.03);
 }
+
+.hero-img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 16px;
+  display: block;
+  margin: 40px auto;
+}
