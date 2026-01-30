@@ -1,1 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9fbf6;
+  color: #111;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 24px;
+}
+
+/* ABOUT */
+.about h2 {
+  margin-bottom: 24px;
+}
+
+.about-content {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.image-box {
+  background: linear-gradient(135deg, #d9f7b4, #e9ffd8);
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.image-box img {
+  display: block;
+  width: 220px;
+  border-radius: 8px;
+}
+
+.text-box h3 {
+  margin-top: 0;
+}
+
+.text-box p {
+  max-width: 360px;
+  line-height: 1.5;
+}
+
+/* INTERESTS */
+.interests {
+  margin-top: 64px;
+}
+
+.desc {
+  max-width: 600px;
+  margin-bottom: 24px;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+}
+
+.card {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+}
+
+.card.pink {
+  background: linear-gradient(135deg, #ffb7c5, #ffe1e8);
+}
+
+.card.purple {
+  background: linear-gradient(135deg, #c8c6ff, #e6e5ff);
+}
+
+.card.green {
+  background: linear-gradient(135deg, #d6f5d6, #f0fff0);
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #555;
+}
+
+.years {
+  text-align: right;
+}
 
